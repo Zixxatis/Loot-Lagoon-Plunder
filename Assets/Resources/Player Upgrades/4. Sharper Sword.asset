@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bde27aef9296254db8a8f266b5d4883, type: 3}
+  m_Name: 4. Sharper Sword
+  m_EditorClassIdentifier: 
+  <UpgradeRarity>k__BackingField: 1
+  <UpgradeType>k__BackingField: 4
+  <TitleKey>k__BackingField:
+    <LocalizationKey>k__BackingField: Upgrade_Sword
+  <DescriptionKey>k__BackingField:
+    <LocalizationKey>k__BackingField: UpgradeDesc_Sword
+  <IconSprite>k__BackingField: {fileID: 21300000, guid: f3e33c3749b70da4c83da0dbd7acba08, type: 3}
+  <Price>k__BackingField:
+    Red: 1
+    Green: 2
+    Blue: 3

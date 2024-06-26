@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3beba93cf5d8fd34fa69f00971e1ff7d, type: 3}
+  m_Name: Player Config
+  m_EditorClassIdentifier: 
+  <HealthSystemConfig>k__BackingField:
+    <MaxHealth>k__BackingField: 100
+    <RecoveryWindowInSeconds>k__BackingField: 0.65
+    <HasResistToKnockBack>k__BackingField: 0
+    <IsKnockable>k__BackingField: 1
+    <IsCountedForVampiric>k__BackingField: 1
+  <MovementConfig>k__BackingField:
+    <MaxSpeedX>k__BackingField: 3.5
+    <Acceleration>k__BackingField: 0.4
+    <InertiaMultiplier>k__BackingField: 0.85
+    <MinimumVelocityToCountAsMovement>k__BackingField: 0.005
+  <AirborneConfig>k__BackingField:
+    <JumpForce>k__BackingField: 5
+  <AttackConfigsList>k__BackingField:
+  - <AttackType>k__BackingField: 0
+    <AttackRangeRadius>k__BackingField: 0.35
+    <Damage>k__BackingField: 15
+    <DurationInSeconds>k__BackingField: 0.2
+    <DelayBeforeDamagingInSeconds>k__BackingField: 0.075
+    <KnockBackForce>k__BackingField: {x: 2.5, y: 0.5}
+    <CriticalChanceInPercent>k__BackingField: 0
+    <VampiricHealAmount>k__BackingField: 0
+  - <AttackType>k__BackingField: 1
+    <AttackRangeRadius>k__BackingField: 0.35
+    <Damage>k__BackingField: 15
+    <DurationInSeconds>k__BackingField: 0.25
+    <DelayBeforeDamagingInSeconds>k__BackingField: 0.1
+    <KnockBackForce>k__BackingField: {x: 3, y: 0}
+    <CriticalChanceInPercent>k__BackingField: 0
+    <VampiricHealAmount>k__BackingField: 0
