@@ -55,14 +55,14 @@ Play WebGL version or download .exe for Windows from [itch.io](https://zixxatis.
 - [GameObject Creator](https://github.com/Zixxatis/Loot-Lagoon-Plunder/blob/main/Assets/Editor/GameObjects%20Creation/GameObjectCreator.cs) - A simple factory for creating custom objects from the context menu in Edit mode.
 
 ### Extensions
-- [General Extensions](https://github.com/Zixxatis/Hundred-Cells/tree/main/Assets/Scripts/%5BExtensions%20%26%20Misc%5D/Extensions) - A collection of various extensions for general C# & Unity classes.
+- [General Extensions](https://github.com/Zixxatis/Loot-Lagoon-Plunder/tree/main/Assets/Scripts/%5BExtensions%20%26%20Misc%5D/Extensions) - A collection of various extensions for general C# & Unity classes.
 
 ## Screenshots
 <p align="center">
-<img src="https://github.com/Zixxatis/Hundred-Cells/blob/main/.github/screenshot_1.png" alt="screenshot1" width="400"/>
-<img src="https://github.com/Zixxatis/Hundred-Cells/blob/main/.github/screenshot_2.png" alt="screenshot2" width="400"/>
-<img src="https://github.com/Zixxatis/Hundred-Cells/blob/main/.github/screenshot_3.png" alt="screenshot3" width="400"/>
-<img src="https://github.com/Zixxatis/Hundred-Cells/blob/main/.github/screenshot_4.png" alt="screenshot4" width="400"/>
+<img src="https://github.com/Zixxatis/Loot-Lagoon-Plunder/blob/main/.github/screenshot_1.png" alt="screenshot1" width="400"/>
+<img src="https://github.com/Zixxatis/Loot-Lagoon-Plunder/blob/main/.github/screenshot_2.png" alt="screenshot2" width="400"/>
+<img src="https://github.com/Zixxatis/Loot-Lagoon-Plunder/blob/main/.github/screenshot_3.png" alt="screenshot3" width="400"/>
+<img src="https://github.com/Zixxatis/Loot-Lagoon-Plunder/blob/main/.github/screenshot_4.png" alt="screenshot4" width="400"/>
 </p>
 
 ## Acknowledgments
