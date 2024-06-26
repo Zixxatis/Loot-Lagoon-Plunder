@@ -1,17 +1,20 @@
-# Loot Lagoon Plunder
 <img src="https://github.com/Zixxatis/Loot-Lagoon-Plunder/blob/main/.github/banner.png" alt="banner">
 
-![Engine](https://img.shields.io/badge/Engine-Unity%202022.3.21f1-blueviolet?style=&logo=unity) ![Platform](https://img.shields.io/badge/Platform-Windows%20-darkblue?style=&logo=windows)
-![ReleaseDate](https://img.shields.io/badge/Release%20Date-13.04.2024-red) ![Version](https://img.shields.io/badge/Version-1.2.2-blue)
-![GitHub License](https://img.shields.io/github/license/Zixxatis/Loot-Lagoon-Plunder)
+<p align="center">
+   <img src="https://img.shields.io/badge/Engine-Unity%202022.3.21f1-blueviolet?style=&logo=unity" alt="Engine">
+   <img src="https://img.shields.io/badge/Platform-Windows%20-darkblue?style=&logo=windows" alt="Platform">
+   <img src="https://img.shields.io/badge/Release%20Date-13.04.2024-red" alt="Release Date">
+   <img src="https://img.shields.io/badge/Version-1.2.2-blue" alt="Game Version">
+   <img src="https://img.shields.io/github/license/Zixxatis/Loot-Lagoon-Plunder" alt="License">
+</p>
 
 ## Table of Contents
 * [About](#About)
 * [Features](#features)
-	* [[#Project Systems]]
-	* [[#Custom Editor Scripts]]
-	* [[#Extensions]]
-	* [[#Design Patterns Used]]
+	* [Project Systems](#project-systems)
+	* [Design Patterns Used](#design-patterns-used)
+	* [Custom Editor Scripts](#custom-editor-scripts)
+	* [Extensions](#extensions)
 - [Screenshots](#Screenshots)
 - [Acknowledgments](#Acknowledgments)
 - [License](#License)
@@ -39,6 +42,12 @@ Play WebGL version or download .exe for Windows from [itch.io](https://zixxatis.
 	- Operator overrides
 	- Override of base ToString, Equals, GetHashCode
 
+### Design Patterns Used
+- [Strategy](https://github.com/Zixxatis/Loot-Lagoon-Plunder/blob/main/Assets/Scripts/Characters/Character%20Components/Enemy%20Components/EnemyBrain.cs) - Used to change enemy [tasks](https://github.com/Zixxatis/Loot-Lagoon-Plunder/tree/main/Assets/Scripts/Characters/Enemy%20Tasks).
+- [State Machine](https://github.com/Zixxatis/Loot-Lagoon-Plunder/blob/main/Assets/Scripts/Characters/State%20Machine/StateMachine.cs) - Used to change behavior and set character animation to match current behavior.
+- [Factory](https://github.com/Zixxatis/Loot-Lagoon-Plunder/blob/main/Assets/Scripts/Objects/Collectables/LootFactory.cs) - Used to properly instantiate loot objects.
+- Object Pooling - Used for [Shell Projectiles](https://github.com/Zixxatis/Loot-Lagoon-Plunder/blob/main/Assets/Scripts/Characters/Character%20Components/Enemy%20Components/Shell%20Shooter/ShellShooterModule.cs) and [Damage Notification](https://github.com/Zixxatis/Loot-Lagoon-Plunder/tree/main/Assets/Scripts/HUD%20%26%20UI/Damage%20Pop-ups) by hiding and resetting objects instead of instantiating and destroying them.
+
 ### Custom Editor Scripts
 - [Various Drawers](https://github.com/Zixxatis/Loot-Lagoon-Plunder/tree/main/Assets/Editor/Inspector%20GUI) for custom Components
 - [Localization Editor](https://github.com/Zixxatis/Loot-Lagoon-Plunder/blob/main/Assets/Editor/Windows/LocalizationEditor.cs) - An editor window, that helps to maintain the localization file and find any references.
@@ -47,12 +56,6 @@ Play WebGL version or download .exe for Windows from [itch.io](https://zixxatis.
 
 ### Extensions
 - [General Extensions](https://github.com/Zixxatis/Hundred-Cells/tree/main/Assets/Scripts/%5BExtensions%20%26%20Misc%5D/Extensions) - A collection of various extensions for general C# & Unity classes.
-
-### Design Patterns Used
-- [Strategy](https://github.com/Zixxatis/Loot-Lagoon-Plunder/blob/main/Assets/Scripts/Characters/Character%20Components/Enemy%20Components/EnemyBrain.cs) - Used to change enemy [tasks](https://github.com/Zixxatis/Loot-Lagoon-Plunder/tree/main/Assets/Scripts/Characters/Enemy%20Tasks).
-- [State Machine](https://github.com/Zixxatis/Loot-Lagoon-Plunder/blob/main/Assets/Scripts/Characters/State%20Machine/StateMachine.cs) - Used to change behavior and set character animation to match current behavior.
-- [Factory](https://github.com/Zixxatis/Loot-Lagoon-Plunder/blob/main/Assets/Scripts/Objects/Collectables/LootFactory.cs) - Used to properly instantiate loot objects.
-- Object Pooling - Used for [Shell Projectiles](https://github.com/Zixxatis/Loot-Lagoon-Plunder/blob/main/Assets/Scripts/Characters/Character%20Components/Enemy%20Components/Shell%20Shooter/ShellShooterModule.cs) and [Damage Notification](https://github.com/Zixxatis/Loot-Lagoon-Plunder/tree/main/Assets/Scripts/HUD%20%26%20UI/Damage%20Pop-ups) by hiding and resetting objects instead of instantiating and destroying them.
 
 ## Screenshots
 <p align="center">
